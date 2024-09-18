@@ -2,7 +2,7 @@
 All bioinformatic analysis was conducted on the New Zealand eScience Infrastructure NeSI. FastQC and Kraken2 was used for the QC of the samples. Nullarbor was used for genome analysis. Prokka was used to genomically annotate the genomes. ABRicate for the mass screening of contigs for antimicrobial resistance or virulence genes. From these processes, the resistome and virulome of both bovine- and human-isolated _S. aureus_ was revealed. 
 
 # FastQC
-FastQC was used to check the QC of the samples sequence quality
+FastQC was used to check the QC of the samples sequence quality.
 ```
 #SBATCH --cpus-per-task=8 --mem 1Gb --time 0-6:00 -c 1 -J FASTQC
 
